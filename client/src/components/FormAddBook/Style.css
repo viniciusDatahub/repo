@@ -1,0 +1,47 @@
+.form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.form input, textarea {
+  width: 300px;
+  height: 20px;
+  margin: 10px;
+  padding-left: 10px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form textarea {
+  height: 60px;
+}
+
+.form button {
+  height: 20px;
+  width: 150px;
+  margin: 15px;
+}
+
+.profile {
+  border: 1px solid black;
+  width: 700px;
+  height: auto;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+
+.profile p {
+  margin: 10px;
+}

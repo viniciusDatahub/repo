@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+html{
+  width: auto;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    width: 100%;
+  }
+  .App{
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+.profilecard {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1.5em;
+    height: 160px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.div-imgProfile{
+    margin-right: 40px;
+}
+
+.imgProfile {
+    width: 140px;
+    border-radius: 85px;
+    box-shadow: 0px 5px 3px #ccc;
+}
+.div-instagram{
+    display: flex;
+    align-items: center;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .profilecard{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-profile-text{
+        width: 95%;
+    }
+    .div-profile-text p{
+        font-size: larger;
+        margin: 10px 0 10px 0;
+    }
+
+    .imgProfile {
+        width: 110px;
+    }
+    .profilecard {
+        width: 100%;
+        display: flex;
+        margin-bottom: 0.5em;
+        height: auto;
+        box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    }
+    
+  }

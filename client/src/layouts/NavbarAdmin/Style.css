@@ -1,0 +1,31 @@
+.navbar{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navbar-list{
+  width: 100%;
+  font-size: 1.2em;
+  list-style: none;
+  align-items: center;
+  display: flex;
+}
+
+.navbar-list-link {
+  margin: 0 1em 0 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid rgb(245, 245, 245);  
+}
+
+.navbar-list-link:hover {
+  border-bottom: 2px solid #008CBA;
+}
+
+.painel-menu-nav:hover{
+  cursor: pointer;
+}
+
+
+

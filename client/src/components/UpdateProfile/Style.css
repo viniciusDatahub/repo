@@ -1,0 +1,13 @@
+.container-perfil {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-perfil {
+    display: flex;
+}
+
+.div-perfil-update {
+    display: flex;
+    flex-direction: column;
+}

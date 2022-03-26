@@ -1,0 +1,75 @@
+.AdminPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  height: 70%;
+  max-height: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px rgb(25 25 25 / 20%);
+  justify-content: space-around;
+}
+.form-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-login input, textarea {
+  width: 100%;
+  margin: 10px;
+  border: none;
+  background: transparent;
+  box-shadow: inset 0px -3px 0px 0px #dddddd;;
+  margin-bottom: 30px;
+  font-size: 16px;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+.form-login input:focus {
+  outline: none;
+  box-shadow: inset 0px -3px 0px 0px #008CBA;
+  transition:  0.2s ease-in;
+}
+
+.div-button-login{
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  padding-bottom: 2em;
+}
+
+#button-login{
+  border: none;
+  background-color: #008CBA;
+  border-radius: 2px;
+  font-size: 15px;
+  height: 100%;
+  color: white;
+  width: 90px;
+  min-height: 40px;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .AdminPanel {
+    width: 100%;
+  }
+
+}

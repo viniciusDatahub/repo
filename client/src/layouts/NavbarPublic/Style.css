@@ -1,0 +1,32 @@
+.navbar-public{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-list{
+  width: 100%;
+  padding: 0.8em;
+  font-size: 1.2em;
+  list-style: none;
+  padding: 1em 0 1em;
+  align-items: center;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+}
+
+.navbar-list li {
+  margin: 15px;
+}
+
+.painel-menu-nav:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .logo{
+    width: 100%;
+  }
+}
+
+
+
